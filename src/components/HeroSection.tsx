@@ -28,11 +28,11 @@ export const HeroSection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-              Try Live Demo
+            <Button variant="hero" size="lg" className="text-lg px-8 py-4" asChild>
+              <a href="/demo">Try Live Demo</a>
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-white/30 text-white hover:bg-white/10">
-              Learn More
+            <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-white/30 text-white hover:bg-white/10" asChild>
+              <a href="/about">Learn More</a>
             </Button>
           </div>
           

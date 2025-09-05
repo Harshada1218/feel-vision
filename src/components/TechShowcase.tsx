@@ -52,8 +52,8 @@ export const TechShowcase = () => {
               </div>
             </div>
             
-            <Button variant="default" size="lg" className="text-lg px-8">
-              View Technical Details
+            <Button variant="default" size="lg" className="text-lg px-8" asChild>
+              <a href="/how-it-works">View Technical Details</a>
             </Button>
           </div>
           
